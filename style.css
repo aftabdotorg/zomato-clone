@@ -64,6 +64,7 @@ header {
 .search {
   display: flex;
   width: 55vw;
+  height: 7vh;
   align-items: center;
   border-radius: 10px;
   padding: 5px 4px;
@@ -114,13 +115,15 @@ header {
 
 .section-1 {
   display: flex;
+  margin: auto;
+  /* width: 60%; */
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
 }
 .section-1 .section-1-item {
   position: relative;
-  width: 15rem;
+  width: 23rem;
   margin: 3px 5px;
   overflow: hidden;
   border-radius: 10px;
